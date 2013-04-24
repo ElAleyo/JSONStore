@@ -1,0 +1,27 @@
+{
+	"meta":{},
+	"tables":
+	[
+		{
+			"name": "Person",
+			"nextid" : 1,
+			"fields": {
+				"firstName" : "NSString",
+				"lastName" : "NSString",
+				"plan" : "NSString",
+				"photos" : "Photo"
+			},
+			"records": []
+		},
+		{
+			"name" : "Photo",
+			"nextid" : 1,
+			"fields" : {
+				"url" : "NSString",
+				"label" : "NSString",
+				"owner" : "Person"
+			},
+			"records" : []
+		}
+	]
+}
